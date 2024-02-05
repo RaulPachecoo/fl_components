@@ -9,4 +9,7 @@ export 'package:fl_components/screens/lannister_screen.dart';
 export 'package:fl_components/screens/baratheon_screen.dart';
 export 'package:fl_components/screens/avatar_screen.dart';
 export 'package:fl_components/screens/animated_screen.dart';
+export 'package:fl_components/screens/inputs_screen.dart';
+export 'package:fl_components/screens/slider_screen.dart';
+export 'package:fl_components/screens/listview_builder_screen.dart';
 

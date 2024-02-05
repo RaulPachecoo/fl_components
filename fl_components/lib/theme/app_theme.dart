@@ -32,6 +32,28 @@ class AppTheme{
             foregroundColor: Colors.white
 
           )
+        ),
+
+        //InputDecoration
+        inputDecorationTheme: const InputDecorationTheme(
+          floatingLabelStyle: TextStyle(
+            color: primary,
+          ),
+          focusedBorder: OutlineInputBorder(
+            borderSide: BorderSide(
+              color: primary,
+            ),
+            //borderRadius: BorderRadius.only(bottomLeft: Radius.circular(10))
+          ),
+          enabledBorder: OutlineInputBorder(
+            borderSide: BorderSide(
+              color: primary,
+            ),
+            //borderRadius: BorderRadius.only(bottomLeft: Radius.circular(10))
+          ),
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.only(bottomLeft: Radius.circular(10))
+          )
         )
 
         
